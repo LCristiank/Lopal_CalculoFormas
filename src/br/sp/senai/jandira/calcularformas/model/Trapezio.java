@@ -3,9 +3,8 @@ package br.sp.senai.jandira.calcularformas.model;
 public class Trapezio {
 	private double baseMaior;
 	private double baseMenor;
-	private double ladoUm;
-	private double ladoDois;
 	private double altura;
+	
 	
 	public void setBaseMaior(double baseMaior) {
 		if (baseMaior > 0 ) {
@@ -39,9 +38,8 @@ public class Trapezio {
 		return altura;
 	}
 	
-	public double calcularArea() { 
+	public void calcularArea() { 
 		double area = (baseMaior + baseMenor) * altura / 2;
-		return area;
 	}
 	
 	public void mostrarDados() {

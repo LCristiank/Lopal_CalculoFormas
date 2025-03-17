@@ -1,6 +1,5 @@
 package br.sp.senai.jandira.calcularformas.model;
 
-import java.util.Set;
 
 public class Circuferencia {
 	private double raio;
@@ -15,9 +14,7 @@ public class Circuferencia {
 	public double getRaio() {
 		return raio;
 	}
-	Set<E>
-	set
-	
+
 	public double calcularCircuferencia() {
 		double resultCircuferencia = 3.14 * (raio * raio);
 		return resultCircuferencia;
