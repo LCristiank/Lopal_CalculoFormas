@@ -28,7 +28,7 @@ public class Quadrado {
 		double resultPerimetro = calcularPerimetro();
 		
 		System.out.println("==========================");
-		System.out.printf("Forma Geometrica: Retangulo \n");
+		System.out.printf("Forma Geometrica: Quadrado \n");
 		System.out.printf("Lado: %s \n", lado);
 		System.out.printf("Area: %s \n", resultArea);
 		System.out.printf("Perimetro: %s \n", resultPerimetro);
